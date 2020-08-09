@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.loginbox{
+    width:330px;
+    height:450px;
+    background-color: rgba(254, 254, 254, 0.4);;
+    margin:auto;
+    margin-top: 130px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 4px 9px 10px 0 rgb(22, 111, 133);
+
+    
+}
+.loginbox:hover{
+    box-shadow: 4px 9px 10px 0 rgb(223, 212, 212);
+    
+}
+.l1title{
+    position: relative;
+    top:95px;
+    color:rgb(22, 111, 133);
+}
+.ww{
+  border:3px solid black;
+  padding: 7px;
+  width:280px;
+  margin:auto;
+  margin-top: 17px;
+  border-radius:15px;
+  opacity:0.5;
+  font-size: 18px;
+  cursor: pointer;
+  
+  background: transparent;
+}
+
+  .wh{
+      padding-top:140px;
+     }
+.ww td{
+    padding-left: 20px;
+}
+
+.wh a{
+    text-decoration:none;
+    color:black;
+}
+.main{
+    background-image: url("DOC.jpg");
+    width: 100%;
+    height:665px;
+    background-size: cover;
+}
+.move{
+    position: absolute;
+    left:900px;
+    top:100px;
+}
+
+input[type=text]:focus{
+    border-color: rgb(22, 111, 133);
+    box-shadow:0 0 8px 0 rgb(22, 111, 133);
+}
+.iwi input[type=text]{
+
+    padding-left: 40px;
+
+}
+.iwi{
+    position: relative;
+}
+.iwi i{
+    position: absolute;
+    right: 270px;
+    top:31px;
+    color:#aaa;
+    transition:.3s;
+}
+.iwi input[type=text]:focus + i{
+    color:rgb(22, 111, 133);
+}
+.iwi input[type=password]{
+    padding-left: 40px;
+}
+input[type=password]:focus{
+    border-color: rgb(22, 111, 133);
+    box-shadow:0 0 8px 0 rgb(22, 111, 133);
+}
+.iwi input[type=password]:focus + i{
+    color:rgb(22, 111, 133);
+}
+input:focus{
+    outline:none;
+}
+.w1{
+    width:180px;
+    padding:5px;
+}
+button:focus{
+    outline: none;
+}
+.forgotpass{
+    position: relative;
+    top:12px;
+    left:95px;
+    
+}
+.forgotpass a{
+    text-decoration: none;
+    color: rgb(22, 111, 133);
+    font-size:13px;
+    cursor: pointer;
+}
+.forgotpass a:hover{
+    color:red;
+}
+.acccr{
+    position: relative;
+    top:25px;
+    font-size: 17px;
+
+}
+.acccr a{
+    text-decoration:none;
+    color:rgb(22, 111, 133);
+    transition: .2s;
+}
+.acccr a:hover{
+    color: rgb(84, 195, 223);
+    text-shadow:0 0 8px 0 rgb(87, 185, 214);
+}
+.w1:hover{
+    color:white;
+    background-color: rgb(22, 111, 133);
+    border-color:rgb(22, 111, 133) ;
+}
+.t{
+    position: absolute;
+    top:100px;
+    left:700px;
+    font-size: 20px;;
+}
+.ima{
+    position: absolute;
+    top:10px;
+    right:290px;
+}
+.h{
+    color: rgb(22, 111, 133);
+    font-size: 25px;
+    position: relative;
+    top:-376px;
+    left:130px;
+    transition:.7s;
+}
+.h:hover{
+   transform: scale(1.3);
+}
+.ad{
+    margin-left: 10px;
+    position: absolute;
+}
